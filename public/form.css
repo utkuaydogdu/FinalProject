@@ -1,0 +1,42 @@
+form {
+
+max-width: 400px;
+margin: 20px auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-shadow: 0 0 100px rgb(0, 0, 0, 0.2);
+}
+
+.customlabel {
+display: block;
+margin-bottom: 5px;
+margin-top: 5px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.custominput{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+
+
+button {
+    background-color: #ccc;
+    padding: 10px 10px;
+    border: 1px solid black;
+    float: right;
+    cursor: pointer;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/form.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <main>
+        <h2>Sign-Up</h2>
+        <div id="left">
+           <form action="/signup" method="post">
+            <label for="name" class="customlabel"> Username <small>*</small></label>
+                
+                <input id="name"
+                name="username"
+                class="custominput"
+                type="text" 
+                placeholder="Username"
+                autofocus
+                tabindex="1">
+            <label for="name1" class="customlabel"> Password <small>*</small></label>
+                
+                <input id="password"
+                name="password" 
+                class="custominput"
+                type="text" 
+                placeholder="Password"
+                autofocus
+                tabindex="2">
+
+                <button type="submit-btn" class="submit"><a href="/login">Sign Up</a></button>
+            
+           </form>
+        </div>
+      
+    </main>
+</body>
+</html>

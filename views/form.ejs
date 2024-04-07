@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utku Aydogdu - Contact</title>
+ 
+    <link rel="stylesheet" href="/form.css">
+
+</head>
+<body>
+    <div id="container">
+  
+
+    <main>
+        <div id="left">
+           <form>
+            <label for="name" class="customlabel">First Name <small>*</small></label>
+                
+                <input id="name" 
+                class="custominput"
+                type="text" 
+                placeholder="type your first name"
+                autofocus
+                tabindex="1">
+            <label for="name1" class="customlabel">Second Name <small>*</small></label>
+                
+                <input id="name" 
+                class="custominput"
+                type="text" 
+                placeholder="type your second name"
+                autofocus
+                tabindex="2">
+            
+            <label for="email" class="customlabel">Email <small>*</small> </label>
+                <input id="email" 
+                class="custominput"
+                type="email" 
+                tabindex="3"
+                placeholder="enter your email">
+
+            
+            <hr/>
+            <h3>How did you hear about us</h3>
+
+            <input type="radio"
+            id="hear_about_facebook"
+            name="hear about"
+            value="Facebook"/>
+
+            <label for="hear_about_facebook">Facebook</label>
+
+            <input type="radio"
+            id="hear_about_instagram"
+            name="hear about"
+            value="Instagram"/>
+
+            <label for="hear_about_instagram">Instagram</label>
+
+            <input type="radio"
+            id="hear_about_linkedin"
+            name="hear about"
+            value="LinkedIn"/>
+
+            <label for="hear_about_linkedin">LinkedIn</label>
+            <hr/>
+            <label class="customlabel">Subject <small>*</small></label>
+            
+                <input  class="custominput" id="subject" type="text" name="subject"/>
+        
+            <label class="customlabel">
+                <span>Message <small>*</small> </span>
+                <textarea class="custominput" id="message" type="text" placeholder="Type your message"></textarea>
+            
+            </label>
+            
+            <button>Send</button>
+            <button><a href="/">Go Home</a></button>
+           </form>
+        </div>
+      
+    </main>
+    
+</div>
+</body>
+</html>
